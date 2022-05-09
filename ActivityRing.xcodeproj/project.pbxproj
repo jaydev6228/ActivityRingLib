@@ -20,6 +20,8 @@
 		0D3F59902828FF6700802800 /* ActivityRingExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F598F2828FF6700802800 /* ActivityRingExampleTests.swift */; };
 		0D3F599A2828FF6700802800 /* ActivityRingExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F59992828FF6700802800 /* ActivityRingExampleUITests.swift */; };
 		0D3F599C2828FF6700802800 /* ActivityRingExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F599B2828FF6700802800 /* ActivityRingExampleUITestsLaunchTests.swift */; };
+		0D3F59A72829034100802800 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F59A62829034100802800 /* ProgressRing.swift */; };
+		0D3F59A82829034100802800 /* ProgressRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3F59A62829034100802800 /* ProgressRing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,7 @@
 		0D3F59952828FF6700802800 /* ActivityRingExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActivityRingExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3F59992828FF6700802800 /* ActivityRingExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingExampleUITests.swift; sourceTree = "<group>"; };
 		0D3F599B2828FF6700802800 /* ActivityRingExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D3F59A62829034100802800 /* ProgressRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressRing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,7 @@
 		0D3F595A2828FF3500802800 /* ActivityRing */ = {
 			isa = PBXGroup;
 			children = (
+				0D3F59A62829034100802800 /* ProgressRing.swift */,
 				0D3F595B2828FF3500802800 /* ActivityRing.h */,
 				0D3F595C2828FF3500802800 /* ActivityRing.docc */,
 			);
@@ -379,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3F59A72829034100802800 /* ProgressRing.swift in Sources */,
 				0D3F595D2828FF3500802800 /* ActivityRing.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +402,7 @@
 			files = (
 				0D3F597D2828FF6500802800 /* ViewController.swift in Sources */,
 				0D3F59792828FF6500802800 /* AppDelegate.swift in Sources */,
+				0D3F59A82829034100802800 /* ProgressRing.swift in Sources */,
 				0D3F597B2828FF6500802800 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,6 +643,7 @@
 		0D3F59702828FF3600802800 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -652,6 +659,7 @@
 		0D3F59712828FF3600802800 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
